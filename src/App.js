@@ -13,7 +13,7 @@ const App = () => {
           <UsedLetters />
           <Hangman />
         </div>
-        <GuessLetters />
+        <GuessLetters gameWord={"c_n_a_t"} />
         <Result isIlive={true} />
         <Letters />
       </div>
