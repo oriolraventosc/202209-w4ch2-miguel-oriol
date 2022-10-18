@@ -1,17 +1,20 @@
 const words = [
-  "radiation",
-  "president",
-  "bite",
-  "candle",
+  "habitat",
+  "macacos",
+  "testing",
+  "vacancy",
   "contact",
-  "mainstream",
-  "childish",
+  "rabbits",
+  "iceberg",
+  "abduced",
+  "acolyte",
+  "baboons",
+  "backlog",
+  "balling",
 ];
 
-const randomWord = () => {
+export const randomWord = () => {
   const randomIndex = Math.floor(Math.random() * words.length);
   const selectedWord = words[randomIndex];
   return selectedWord;
 };
-
-randomWord();
