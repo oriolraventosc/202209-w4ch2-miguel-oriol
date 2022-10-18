@@ -12,7 +12,7 @@ const App = () => {
       <div className="container">
         <div className="main-container">
           <UsedLetters />
-          <Hangman />
+          <Hangman stateHangMan={0} />
         </div>
         <GuessLetters gameWord={randomWord()} />
         <Result isIlive={false} />
