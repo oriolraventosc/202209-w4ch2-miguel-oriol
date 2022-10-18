@@ -1,6 +1,6 @@
 import "./Letters.css";
 
-const Letters = ({ setSelectedLetter }) => {
+const Letters = () => {
   const alphabet = [
     "A",
     "B",
