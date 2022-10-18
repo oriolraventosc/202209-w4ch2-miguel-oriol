@@ -15,7 +15,7 @@ const App = () => {
           <Hangman />
         </div>
         <GuessLetters gameWord={randomWord()} />
-        <Result isIlive={true} />
+        <Result isIlive={false} />
         <Letters />
       </div>
     </>
