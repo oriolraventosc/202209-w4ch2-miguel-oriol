@@ -1,6 +1,6 @@
 import "./Letters.css";
 
-const Letters = () => {
+const Letters = ({ setSelectedLetter }) => {
   const alphabet = [
     "A",
     "B",
@@ -35,7 +35,7 @@ const Letters = () => {
       {alphabet.map((letter) => {
         return (
           <li key={letter} className="letter">
-            <a href={letter}>{letter}</a>
+            <a href="#none">{letter}</a>
           </li>
         );
       })}
