@@ -35,7 +35,7 @@ const Letters = () => {
       {alphabet.map((letter) => {
         return (
           <li key={letter} className="letter">
-            <a href={letter}>{letter}</a>
+            <a href="#none">{letter}</a>
           </li>
         );
       })}
